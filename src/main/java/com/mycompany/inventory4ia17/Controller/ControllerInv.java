@@ -35,7 +35,7 @@ public class ControllerInv {
         return "Inventory added successfully";
     }
 
-    public String updateInv(@RequestBody Model inv) {
+    public String editInv(@RequestBody Model inv) {
         ServiceInv.addInv(inv);
         return "Inventory updated successfully";
     }
